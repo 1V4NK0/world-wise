@@ -1,3 +1,16 @@
 {
-  "cities": []
+  "cities": [
+    {
+      "id": "5be5",
+      "cityName": "Camoluk",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2024-08-29T14:53:34.590Z",
+      "notes": "",
+      "position": {
+        "lat": 40.139020318951964,
+        "lng": 38.869864798170525
+      }
+    }
+  ]
 }

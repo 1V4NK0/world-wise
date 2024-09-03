@@ -7,7 +7,7 @@ import Button from "../components/Button";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
-  const [email, setEmail] = useState("jack@example.com");
+  const [email, setEmail] = useState("ivan@example.com");
   const [password, setPassword] = useState("qwerty");
   const { login, isAuthenticated } = useAuth();
   const navigate = useNavigate();
@@ -21,7 +21,7 @@ export default function Login() {
   }
 
   useEffect(() => {
-    if (isAuthenticated) navigate("/app", {replace: true});
+    if (isAuthenticated) navigate("/app", { replace: true });
   }, [isAuthenticated, navigate]);
 
   return (
